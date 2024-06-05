@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Ensure elements are in a single line */
+}
+
+.scroll-container {
+    display: flex; /* Arrange children in a row */
+    width: max-content; /* Ensure container width adjusts to content */
+}
+
+article {
+    background-color: #ffd085;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block; /* Ensure articles are inline */
+}
+
+.title, .image {
+    display: block;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 500px; /* Adjust image width as needed */
+}
